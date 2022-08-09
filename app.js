@@ -50,6 +50,6 @@ for ([i = 1]; [i <= n]; [i++]) {
         break;
     }
 }
-if (i == n + 1) {
+if (i == n + 1 && i != value) {
     console.log("Did not find value");
 }
